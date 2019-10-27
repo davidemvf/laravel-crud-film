@@ -2,7 +2,7 @@
 
 @section('content')
   <div class="content">
-    <div class="film_box">
+    <div class="film_box show">
       <div class="box_head">
         <h3>{{ucfirst($film -> title)}}</h3>
         <div class="actions">
@@ -12,6 +12,7 @@
       </div>
       <p>{{$film -> film_director}}</p>
       <p>{{$film -> genre}}</p>
+      <p>{{$film -> description}}</p>
       <div class="rating">
         @for ($i=0; $i < $film -> rating; $i++)
           <i class="far fa-star yellow"></i>

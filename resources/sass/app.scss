@@ -29,7 +29,7 @@ h1 {
 .film_box{
   border: 1px solid black;
   width: 15%;
-  height: 200px;
+  height: 200px;;
   padding: 5px;
   margin: 10px;
   display: flex;
@@ -61,4 +61,11 @@ form {
     margin: 0 auto;
   }
 
+}
+
+.show {
+  height: auto;
+  p, .rating {
+    margin-top: 15px;
+  }
 }

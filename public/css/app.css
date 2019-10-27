@@ -70,3 +70,12 @@ form button {
   margin: 0 auto;
 }
 
+.show {
+  height: auto;
+}
+
+.show p,
+.show .rating {
+  margin-top: 15px;
+}
+
